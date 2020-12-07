@@ -1,0 +1,37 @@
+.home-body {
+  padding-top: 2%;
+  width: 80%;
+  margin: auto;
+}
+.home-round-carousel img {
+  border-radius: 70px;
+}
+.home-headings {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  color: white;
+}
+.home-elements img {
+  padding: 2%;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+}
+.home-img34 {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+.home-img1 {
+  width: 200px;
+  height: 200px;
+}
+.home-img2 {
+  width: 100px;
+  height: 200px;
+}
+.home-img3 {
+  width: 200px;
+  height: 100px;
+}

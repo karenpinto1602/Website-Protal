@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  color: gray;
+}
+.signup-body {
+  width: 50%;
+  text-align: left;
+  padding: 10% 6% 6% 6%;
+}
+b {
+  color: white;
+}
+.signup-heading {
+  font-size: 40px;
+}
+.signup-subheading {
+  font-size: 18px;
+  margin-bottom: 10%;
+}
+.signup-switch button {
+  margin-right: 40px;
+  width: 130px;
+  border: 1px solid yellow;
+  border-radius: 7px;
+  border-width: 0.5mm;
+  color: gray;
+  outline: none;
+  font-size: 22px;
+  padding: 5px;
+}
+.signup-login {
+  background-color: yellow;
+}
+.signup-signup {
+  background-color: black;
+}
+.signup-inputs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  margin: 10px 0;
+}
+.signup-inputs input {
+  padding: 5px 0 5px 10px;
+  border: 2px solid gray;
+  color: gray;
+  border-radius: 10px;
+  background-color: black;
+  width: 100%;
+  font-size: 15px;
+}
+.signup-unit {
+  position: absolute;
+  display: block;
+  background-color: white;
+  width: 65px;
+  font-size: 14px;
+  top: 1px;
+  right: -15px;
+  padding: 5px 0 6px 7px;
+  border-radius: 7px;
+}
+.signup-next {
+  width: 290px;
+  text-align: center;
+}
+.signup-next button {
+  background-color: yellow;
+  border-radius: 7px;
+  width: 130px;
+  padding: 5px;
+  font-size: 22px;
+  color: gray;
+  border: 1px solid yellow;
+}
