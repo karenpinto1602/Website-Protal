@@ -4,7 +4,7 @@
   margin: auto;
 }
 .home-round-carousel img {
-  border-radius: 70px;
+  border-radius: 50%;
 }
 .home-headings {
   font-weight: bold;

@@ -1,4 +1,60 @@
 .profile-body {
-  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+
+  color: rgb(218, 218, 218);
+}
+.profile-account {
+  padding-top: 10%;
+  width: 100%;
+}
+.profile-account img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.profile-name {
+  font-size: x-large;
+}
+.profile-icons {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.profile-icon {
   color: white;
+  padding: 10%;
+}
+.profile-talent {
+  border: 1px solid gray;
+}
+.profile-coverpage {
+  width: 100%;
+  height: 300px;
+}
+.profile-likes {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.profile-likes button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.profile-likeIcon {
+  color: white;
+  position: relative;
+}
+.profile-likeIcon-none {
+  display: none;
+  position: absolute;
+}
+.profile-posts img {
+  width: 300px;
+  height: 300px;
+  padding: 1%;
 }

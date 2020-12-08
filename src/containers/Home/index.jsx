@@ -14,7 +14,6 @@ class Home extends Component {
     render() { 
         const responsive1 = {
             superLargeDesktop: {
-              // the naming can be any, depends on you.
               breakpoint: { max: 4000, min: 3000 },
               items: 10
             },
@@ -33,7 +32,6 @@ class Home extends Component {
           };
           const responsive2 = {
             superLargeDesktop: {
-              // the naming can be any, depends on you.
               breakpoint: { max: 4000, min: 3000 },
               items: 4
             },
@@ -57,7 +55,7 @@ class Home extends Component {
                 <div className="home-round-carousel">
                 <Carousel responsive={responsive1}
                     autoPlay={this.props.deviceType !== "mobile" ? true : false}
-                    autoPlaySpeed={3000}
+                    autoPlaySpeed={2000}
                     infinite={true}
                 
                 >
