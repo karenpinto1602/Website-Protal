@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./navbar.css";
+import {Link} from "react-router-dom";
 
 import { HomeOutlined, TrendingUpOutlined, AccountBox, Settings } from '@material-ui/icons';
 
@@ -13,10 +14,10 @@ class Navbar extends Component {
                     <input type="text" placeholder="Search"></input>
                 </div>
                 <div className="navbar-icons">
-                    <HomeOutlined style={{color: "yellow", fontSize: "40px"}}/>
-                    <TrendingUpOutlined style={{color: "yellow", fontSize: "40px"}}/>
-                    <AccountBox style={{color: "yellow", fontSize: "40px"}}/>
-                    <Settings style={{color: "yellow", fontSize: "40px"}}/>
+                    <Link to="/home"><HomeOutlined style={{color: "yellow", fontSize: "40px"}}/></Link>
+                    <Link to="/"><TrendingUpOutlined style={{color: "yellow", fontSize: "40px"}}/></Link>
+                    <Link to="/profile"><AccountBox style={{color: "yellow", fontSize: "40px"}}/></Link>
+                    <Link to="/"><Settings style={{color: "yellow", fontSize: "40px"}}/></Link>
                 </div>
             </div>
          );

@@ -13,7 +13,7 @@
   color: white;
 }
 .home-elements img {
-  padding: 2%;
+  border: 1px solid white;
 }
 .home-grid {
   display: grid;
@@ -33,5 +33,6 @@
 }
 .home-img3 {
   width: 200px;
-  height: 100px;
+  height: 90px;
+  margin-bottom: 20px;
 }
