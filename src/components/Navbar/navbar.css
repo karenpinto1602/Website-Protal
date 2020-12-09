@@ -1,5 +1,5 @@
 .navbar-body {
-  padding: 10px;
+  padding-top: 10px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
@@ -17,9 +17,15 @@
 }
 .navbar-icons {
   width: 70%;
+  margin: auto;
   display: flex;
   justify-content: space-around;
 }
 .navbar-icon-clicked {
   background-color: gray;
+}
+@media screen and (max-width: 768px) {
+  .navbar-search input {
+    display: none;
+  }
 }

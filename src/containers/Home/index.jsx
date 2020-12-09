@@ -45,7 +45,7 @@ class Home extends Component {
             },
             mobile: {
               breakpoint: { max: 464, min: 0 },
-              items: 1
+              items: 0.5
             }
           };
           
@@ -76,17 +76,17 @@ class Home extends Component {
                 </div>
                 <div className="home-elements">
                     <p className="home-headings">Dance</p>
-                    <Carousel responsive={responsive2}   
+                    <Carousel responsive={responsive2}
                     swipeable={true}                 
-                    infinite={true}
-                
+                    infinite={true} 
+                    removeArrowOnDeviceType={["tablet", "mobile"]}               
                     >
                         <div className="home-grid">
                             <img className="home-img1" src={imgd1}  />
                             <img className="home-img2" src={imgd2} />
                             <div className="home-img34">
                                 <img className="home-img3" src={imgd3}  />
-                                <img className="home-img3" src={imgd4}  />
+                                <img className="home-img4" src={imgd4}  />
                             </div>
                         </div>
                         <div className="home-grid">
@@ -94,7 +94,7 @@ class Home extends Component {
                             <img className="home-img2" src={imgd2} />
                             <div className="home-img34">
                                 <img className="home-img3" src={imgd3}  />
-                                <img className="home-img3" src={imgd4}  />
+                                <img className="home-img4" src={imgd4}  />
                             </div>
                         </div>
                         <div className="home-grid">
@@ -102,24 +102,26 @@ class Home extends Component {
                             <img className="home-img2" src={imgd2} />
                             <div className="home-img34">
                                 <img className="home-img3" src={imgd3}  />
-                                <img className="home-img3" src={imgd4}  />
+                                <img className="home-img4" src={imgd4}  />
                             </div>
-                        </div>                        
+                        </div>
+                                               
                     
                     </Carousel>
                 </div>
                 <div className="home-elements">
                     <p className="home-headings">Music</p>
-                    <Carousel responsive={responsive2}   
+                    <Carousel responsive={responsive2}  
                     swipeable={true}                 
-                    infinite={true}                
+                    infinite={true} 
+                    removeArrowOnDeviceType={["tablet", "mobile"]}               
                     >
                         <div className="home-grid">
                             <img className="home-img1" src={imgd1}  />
                             <img className="home-img2" src={imgd2} />
                             <div className="home-img34">
                                 <img className="home-img3" src={imgd3}  />
-                                <img className="home-img3" src={imgd4}  />
+                                <img className="home-img4" src={imgd4}  />
                             </div>
                         </div>
                         <div className="home-grid">
@@ -127,7 +129,7 @@ class Home extends Component {
                             <img className="home-img2" src={imgd2} />
                             <div className="home-img34">
                                 <img className="home-img3" src={imgd3}  />
-                                <img className="home-img3" src={imgd4}  />
+                                <img className="home-img4" src={imgd4}  />
                             </div>
                         </div>
                         <div className="home-grid">
@@ -135,7 +137,7 @@ class Home extends Component {
                             <img className="home-img2" src={imgd2} />
                             <div className="home-img34">
                                 <img className="home-img3" src={imgd3}  />
-                                <img className="home-img3" src={imgd4}  />
+                                <img className="home-img4" src={imgd4}  />
                             </div>
                         </div>                        
                     
@@ -143,9 +145,10 @@ class Home extends Component {
                 </div>
                 <div className="home-elements">
                     <p className="home-headings">Photography</p>
-                    <Carousel responsive={responsive2}   
+                    <Carousel responsive={responsive2} 
                     swipeable={true}                 
-                    infinite={true}
+                    infinite={true} 
+                    removeArrowOnDeviceType={["tablet", "mobile"]}  
                 
                     >
                         <div className="home-grid">
@@ -153,7 +156,7 @@ class Home extends Component {
                             <img className="home-img2" src={imgd2} />
                             <div className="home-img34">
                                 <img className="home-img3" src={imgd3}  />
-                                <img className="home-img3" src={imgd4}  />
+                                <img className="home-img4" src={imgd4}  />
                             </div>
                         </div>
                         <div className="home-grid">
@@ -161,7 +164,7 @@ class Home extends Component {
                             <img className="home-img2" src={imgd2} />
                             <div className="home-img34">
                                 <img className="home-img3" src={imgd3}  />
-                                <img className="home-img3" src={imgd4}  />
+                                <img className="home-img4" src={imgd4}  />
                             </div>
                         </div>
                         <div className="home-grid">
@@ -169,7 +172,7 @@ class Home extends Component {
                             <img className="home-img2" src={imgd2} />
                             <div className="home-img34">
                                 <img className="home-img3" src={imgd3}  />
-                                <img className="home-img3" src={imgd4}  />
+                                <img className="home-img4" src={imgd4}  />
                             </div>
                         </div>                        
                     

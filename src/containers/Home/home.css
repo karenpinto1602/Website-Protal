@@ -19,10 +19,6 @@
   display: grid;
   grid-template-columns: 40% 20% 40%;
 }
-.home-img34 {
-  display: grid;
-  grid-template-rows: 50% 50%;
-}
 .home-img1 {
   width: 200px;
   height: 200px;
@@ -31,8 +27,22 @@
   width: 100px;
   height: 200px;
 }
+.home-img34 {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
 .home-img3 {
   width: 200px;
   height: 90px;
-  margin-bottom: 20px;
+}
+.home-img4 {
+  width: 200px;
+  height: 90px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
 }
