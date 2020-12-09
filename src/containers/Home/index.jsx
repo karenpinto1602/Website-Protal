@@ -59,18 +59,18 @@ class Home extends Component {
                     infinite={true}
                 
                 >
-                    <img src={img1} width="100px" height="100px" />
-                    <img src={img1} width="100px" height="100px" />
-                    <img src={img1} width="100px" height="100px" />
-                    <img src={img1} width="100px" height="100px" />
-                    <img src={img1} width="100px" height="100px" />
-                    <img src={img1} width="100px" height="100px" />
-                    <img src={img1} width="100px" height="100px" />
-                    <img src={img1} width="100px" height="100px" />
-                    <img src={img1} width="100px" height="100px" />
-                    <img src={img1} width="100px" height="100px" />
-                    <img src={img1} width="100px" height="100px" />
-                    <img src={img1} width="100px" height="100px" />
+                    <img src={img1} width="100px" height="100px" alt="" />
+                    <img src={img1} width="100px" height="100px" alt=""  />
+                    <img src={img1} width="100px" height="100px" alt=""  />
+                    <img src={img1} width="100px" height="100px" alt=""  />
+                    <img src={img1} width="100px" height="100px" alt=""  />
+                    <img src={img1} width="100px" height="100px" alt=""  />
+                    <img src={img1} width="100px" height="100px" alt=""  />
+                    <img src={img1} width="100px" height="100px" alt=""  />
+                    <img src={img1} width="100px" height="100px" alt=""  />
+                    <img src={img1} width="100px" height="100px" alt=""  />
+                    <img src={img1} width="100px" height="100px" alt=""  />
+                    <img src={img1} width="100px" height="100px" alt=""  />
             
                 </Carousel>
                 </div>
@@ -82,27 +82,27 @@ class Home extends Component {
                     removeArrowOnDeviceType={["tablet", "mobile"]}               
                     >
                         <div className="home-grid">
-                            <img className="home-img1" src={imgd1}  />
-                            <img className="home-img2" src={imgd2} />
+                            <img className="home-img1" src={imgd1} alt=""   />
+                            <img className="home-img2" src={imgd2} alt=""  />
                             <div className="home-img34">
-                                <img className="home-img3" src={imgd3}  />
-                                <img className="home-img4" src={imgd4}  />
+                                <img className="home-img3" src={imgd3} alt=""   />
+                                <img className="home-img4" src={imgd4} alt=""   />
                             </div>
                         </div>
                         <div className="home-grid">
-                            <img className="home-img1" src={imgd1}  />
-                            <img className="home-img2" src={imgd2} />
+                            <img className="home-img1" src={imgd1} alt=""   />
+                            <img className="home-img2" src={imgd2} alt=""  />
                             <div className="home-img34">
-                                <img className="home-img3" src={imgd3}  />
-                                <img className="home-img4" src={imgd4}  />
+                                <img className="home-img3" src={imgd3} alt=""   />
+                                <img className="home-img4" src={imgd4} alt=""   />
                             </div>
                         </div>
                         <div className="home-grid">
-                            <img className="home-img1" src={imgd1}  />
-                            <img className="home-img2" src={imgd2} />
+                            <img className="home-img1" src={imgd1} alt=""   />
+                            <img className="home-img2" src={imgd2} alt=""  />
                             <div className="home-img34">
-                                <img className="home-img3" src={imgd3}  />
-                                <img className="home-img4" src={imgd4}  />
+                                <img className="home-img3" src={imgd3} alt=""   />
+                                <img className="home-img4" src={imgd4} alt=""   />
                             </div>
                         </div>
                                                
@@ -117,27 +117,27 @@ class Home extends Component {
                     removeArrowOnDeviceType={["tablet", "mobile"]}               
                     >
                         <div className="home-grid">
-                            <img className="home-img1" src={imgd1}  />
-                            <img className="home-img2" src={imgd2} />
+                            <img className="home-img1" src={imgd1} alt=""   />
+                            <img className="home-img2" src={imgd2} alt=""  />
                             <div className="home-img34">
-                                <img className="home-img3" src={imgd3}  />
-                                <img className="home-img4" src={imgd4}  />
+                                <img className="home-img3" src={imgd3} alt=""   />
+                                <img className="home-img4" src={imgd4} alt=""   />
                             </div>
                         </div>
                         <div className="home-grid">
-                            <img className="home-img1" src={imgd1}  />
-                            <img className="home-img2" src={imgd2} />
+                            <img className="home-img1" src={imgd1} alt=""   />
+                            <img className="home-img2" src={imgd2} alt=""  />
                             <div className="home-img34">
-                                <img className="home-img3" src={imgd3}  />
-                                <img className="home-img4" src={imgd4}  />
+                                <img className="home-img3" src={imgd3} alt=""   />
+                                <img className="home-img4" src={imgd4} alt=""   />
                             </div>
                         </div>
                         <div className="home-grid">
-                            <img className="home-img1" src={imgd1}  />
-                            <img className="home-img2" src={imgd2} />
+                            <img className="home-img1" src={imgd1} alt=""   />
+                            <img className="home-img2" src={imgd2} alt=""  />
                             <div className="home-img34">
-                                <img className="home-img3" src={imgd3}  />
-                                <img className="home-img4" src={imgd4}  />
+                                <img className="home-img3" src={imgd3} alt=""   />
+                                <img className="home-img4" src={imgd4} alt=""   />
                             </div>
                         </div>                        
                     
@@ -152,27 +152,27 @@ class Home extends Component {
                 
                     >
                         <div className="home-grid">
-                            <img className="home-img1" src={imgd1}  />
-                            <img className="home-img2" src={imgd2} />
+                            <img className="home-img1" src={imgd1} alt=""   />
+                            <img className="home-img2" src={imgd2} alt=""  />
                             <div className="home-img34">
-                                <img className="home-img3" src={imgd3}  />
-                                <img className="home-img4" src={imgd4}  />
+                                <img className="home-img3" src={imgd3} alt=""   />
+                                <img className="home-img4" src={imgd4} alt=""   />
                             </div>
                         </div>
                         <div className="home-grid">
-                            <img className="home-img1" src={imgd1}  />
-                            <img className="home-img2" src={imgd2} />
+                            <img className="home-img1" src={imgd1} alt=""   />
+                            <img className="home-img2" src={imgd2} alt=""  />
                             <div className="home-img34">
-                                <img className="home-img3" src={imgd3}  />
-                                <img className="home-img4" src={imgd4}  />
+                                <img className="home-img3" src={imgd3} alt=""   />
+                                <img className="home-img4" src={imgd4} alt=""   />
                             </div>
                         </div>
                         <div className="home-grid">
-                            <img className="home-img1" src={imgd1}  />
-                            <img className="home-img2" src={imgd2} />
+                            <img className="home-img1" src={imgd1} alt=""   />
+                            <img className="home-img2" src={imgd2} alt=""  />
                             <div className="home-img34">
-                                <img className="home-img3" src={imgd3}  />
-                                <img className="home-img4" src={imgd4}  />
+                                <img className="home-img3" src={imgd3} alt=""   />
+                                <img className="home-img4" src={imgd4} alt=""   />
                             </div>
                         </div>                        
                     

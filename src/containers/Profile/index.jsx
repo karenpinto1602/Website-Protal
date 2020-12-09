@@ -61,7 +61,7 @@ class Profile extends Component {
                     </div>               
                 </div>
                 <div className="profile-talent">
-                    <img className="profile-coverpage" src={cover}></img>
+                    <img className="profile-coverpage" src={cover} alt="" ></img>
                     <div className="profile-likes">
                         <div>
                             100<br></br>
@@ -89,18 +89,18 @@ class Profile extends Component {
                         </div>
                     </div>
                     <div className="profile-posts">
-                        <img src={p1}></img>
-                        <img src={p2}></img>
-                        <img src={p3}></img>
-                        <img src={p4}></img>
-                        <img src={p5}></img>
-                        <img src={p6}></img>
-                        <img src={p7}></img>
-                        <img src={p8}></img>
-                        <img src={p9}></img>
-                        <img src={p1}></img>
-                        <img src={p2}></img>
-                        <img src={p3}></img>
+                        <img src={p1} alt="" ></img>
+                        <img src={p2} alt="" ></img>
+                        <img src={p3} alt="" ></img>
+                        <img src={p4} alt="" ></img>
+                        <img src={p5} alt="" ></img>
+                        <img src={p6} alt="" ></img>
+                        <img src={p7} alt="" ></img>
+                        <img src={p8} alt="" ></img>
+                        <img src={p9} alt="" ></img>
+                        <img src={p1} alt="" ></img>
+                        <img src={p2} alt="" ></img>
+                        <img src={p3} alt="" ></img>
                     </div>
 
                 </div>
