@@ -55,7 +55,7 @@ class Home extends Component {
                 <div className="home-round-carousel">
                 <Carousel responsive={responsive1}
                     autoPlay={this.props.deviceType !== "mobile" ? true : false}
-                    autoPlaySpeed={2000}
+                    autoPlaySpeed={1000}
                     infinite={true}
                 
                 >
@@ -112,8 +112,7 @@ class Home extends Component {
                     <p className="home-headings">Music</p>
                     <Carousel responsive={responsive2}   
                     swipeable={true}                 
-                    infinite={true}
-                
+                    infinite={true}                
                     >
                         <div className="home-grid">
                             <img className="home-img1" src={imgd1}  />

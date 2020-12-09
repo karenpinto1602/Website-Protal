@@ -6,7 +6,53 @@ import { HomeOutlined, TrendingUpOutlined, PersonOutline, Settings } from '@mate
 
 
 class Navbar extends Component {
-    state = {  }
+    constructor(props){
+        super(props)
+        this.gethome = this.gethome.bind(this); 
+        this.gettrend = this.gettrend.bind(this);
+        this.getprofile = this.getprofile.bind(this);
+        this.getsettings = this.getsettings.bind(this);
+        this.state = {
+            homebutton: true,
+            trendbutton: false,
+            profilebutton: false,
+            settingsbutton: false,
+        }
+    }
+    gethome(){
+        this.setState({
+            homebutton: true,
+            trendbutton: false,
+            profilebutton: false,
+            settingsbutton: false,
+          })
+    }
+    gettrend(){
+        this.setState({
+            homebutton: false,
+            trendbutton: true,
+            profilebutton: false,
+            settingsbutton: false,
+          })
+    }
+    getprofile(){
+        this.setState({
+            homebutton: false,
+            trendbutton: false,
+            profilebutton: true,
+            settingsbutton: false,
+          })
+    }
+    getsettings(){
+        this.setState({
+            homebutton: false,
+            trendbutton: false,
+            profilebutton: false,
+            settingsbutton: true,
+          })
+    }
+
+
     render() { 
         return ( 
             <div className="navbar-body">
@@ -15,10 +61,10 @@ class Navbar extends Component {
                     <input type="text" placeholder="Search"></input>
                 </div>
                 <div className="navbar-icons">
-                    <Link to="/"><HomeOutlined style={{color: "yellow", fontSize: "40px"}}/></Link>
-                    <Link to="/home"><TrendingUpOutlined style={{color: "yellow", fontSize: "40px"}}/></Link>
-                    <Link to="/profile"><PersonOutline style={{color: "yellow", fontSize: "40px"}}/></Link>
-                    <Link to="/"><Settings style={{color: "yellow", fontSize: "40px"}}/></Link>                   
+                    <Link onClick={this.gethome} to="/"><HomeOutlined className={this.state.homebutton ? "navbar-icon-clicked":"navbar-icon"} style={{color: "yellow", fontSize: "40px"}}/></Link>
+                    <Link onClick={this.gettrend} to="/home"><TrendingUpOutlined className={this.state.trendbutton ? "navbar-icon-clicked":"navbar-icon"} style={{color: "yellow", fontSize: "40px"}}/></Link>
+                    <Link onClick={this.getprofile} to="/profile"><PersonOutline className={this.state.profilebutton ? "navbar-icon-clicked":"navbar-icon"} style={{color: "yellow", fontSize: "40px"}}/></Link>
+                    <Link onClick={this.getsettings} to="/signup"><Settings className={this.state.settingsbutton ? "navbar-icon-clicked":"navbar-icon"} style={{color: "yellow", fontSize: "40px"}}/></Link>                   
                 </div>
             </div>
          );

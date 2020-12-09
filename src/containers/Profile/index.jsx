@@ -54,10 +54,10 @@ class Profile extends Component {
                         Mexican Chef
                     </p>  
                     <div className="profile-icons">
-                    <Link to="/home"><PersonOutline className="profile-icon" style={{fontSize: "40px"}}/></Link>
+                    <Link to="/profile"><PersonOutline className="profile-icon" style={{fontSize: "40px"}}/></Link>
                     <Link to="/profile"><Update className="profile-icon" style={{fontSize: "40px"}}/></Link>
-                    <Link to="/"><EmailOutlined className="profile-icon" style={{fontSize: "40px"}}/></Link>                    
-                    <Link to="/"><CalendarTodayOutlined className="profile-icon" style={{fontSize: "40px"}}/></Link>
+                    <Link to="/profile"><EmailOutlined className="profile-icon" style={{fontSize: "40px"}}/></Link>                    
+                    <Link to="/profile"><CalendarTodayOutlined className="profile-icon" style={{fontSize: "40px"}}/></Link>
                     </div>               
                 </div>
                 <div className="profile-talent">

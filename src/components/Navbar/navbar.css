@@ -20,3 +20,6 @@
   display: flex;
   justify-content: space-around;
 }
+.navbar-icon-clicked {
+  background-color: gray;
+}
