@@ -48,7 +48,7 @@ class Profile extends Component {
         return ( 
             <div className="profile-body">
                 <div className="profile-account">
-                    <img src={dp}></img>  
+                    <img src={dp} alt="" ></img>  
                     <p>
                         <div className="profile-name">Becky Helen</div>
                         Mexican Chef
