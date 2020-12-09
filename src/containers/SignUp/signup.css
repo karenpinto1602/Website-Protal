@@ -18,7 +18,6 @@ b {
   margin-bottom: 10%;
 }
 .signup-switch button {
-  margin-right: 40px;
   width: 130px;
   border: 1px solid yellow;
   border-radius: 7px;
@@ -30,6 +29,7 @@ b {
 }
 .signup-login {
   background-color: yellow;
+  margin-right: 40px;
 }
 .signup-signup {
   background-color: black;
@@ -58,7 +58,7 @@ b {
   font-size: 14px;
   top: 1px;
   right: -15px;
-  padding: 5px 0 6px 7px;
+  padding: 6px 0 6px 7px;
   border-radius: 7px;
 }
 .signup-next {
@@ -77,6 +77,46 @@ b {
 @media screen and (max-width: 768px) {
   .signup-body {
     width: 100%;
-    text-align: left;
+    text-align: center;
+    padding: 8% 0;
+  }
+  .signup-switch {
+    margin: auto;
+  }
+  .signup-login {
+    margin-right: 20px;
+  }
+  .signup-inputs {
+    position: relative;
+    margin: 10px auto 10px auto;
+  }
+  .signup-next {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 330px) {
+  .signup-body {
+    width: 100%;
+    text-align: center;
+    padding: 8% 0;
+  }
+  .signup-heading {
+    font-size: 30px;
+  }
+  .signup-switch {
+    margin: auto;
+  }
+  .signup-login {
+    margin-right: 20px;
+  }
+  .signup-inputs {
+    position: relative;
+    margin: 10px auto 10px auto;
+    width: 260px;
+  }
+  .signup-next {
+    width: 100%;
+    text-align: center;
   }
 }

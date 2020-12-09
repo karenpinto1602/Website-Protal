@@ -18,7 +18,6 @@ b {
   margin-bottom: 10%;
 }
 .login-switch button {
-  margin-right: 40px;
   width: 130px;
   border: 1px solid yellow;
   border-radius: 7px;
@@ -30,6 +29,7 @@ b {
 }
 .login-login {
   background-color: black;
+  margin-right: 40px;
 }
 .login-signup {
   background-color: yellow;
@@ -58,7 +58,7 @@ b {
   font-size: 14px;
   top: 1px;
   right: -15px;
-  padding: 5px 0 6px 7px;
+  padding: 6px 0 6px 7px;
   border-radius: 7px;
 }
 .login-next {
@@ -77,6 +77,46 @@ b {
 @media screen and (max-width: 768px) {
   .login-body {
     width: 100%;
-    text-align: left;
+    text-align: center;
+    padding: 8% 0;
+  }
+  .login-switch {
+    margin: auto;
+  }
+  .login-login {
+    margin-right: 20px;
+  }
+  .login-inputs {
+    position: relative;
+    margin: 10px auto 10px auto;
+  }
+  .login-next {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 330px) {
+  .login-body {
+    width: 100%;
+    text-align: center;
+    padding: 8% 0;
+  }
+  .login-heading {
+    font-size: 30px;
+  }
+  .login-switch {
+    margin: auto;
+  }
+  .login-login {
+    margin-right: 20px;
+  }
+  .login-inputs {
+    position: relative;
+    margin: 10px auto 10px auto;
+    width: 260px;
+  }
+  .login-next {
+    width: 100%;
+    text-align: center;
   }
 }

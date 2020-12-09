@@ -7,17 +7,16 @@ class Login extends Component {
     render() { 
         return (
             <div className="login-body">
-
+                <div className="login-sub-body">
                 <div className="login-heading">
                     <b>Pro</b>ducing <b>Tal</b>ents
                 </div>
                 <div className="login-subheading">
                 Join the new talent community
                 </div>
-                <div className="login-switch">
-                    
-                <button className="login-login">Login</button>
-                <Link to="/signup"><button className="login-signup">Sign Up</button></Link>
+                <div className="login-switch">                    
+                    <button className="login-login">Login</button>                   
+                    <Link to="/signup"><button className="login-signup">Sign Up</button></Link>
                 </div>
                 <br></br>
                 <br></br>
@@ -37,7 +36,7 @@ class Login extends Component {
                 <div className="login-next">
                 <Link to="/home"><button>Next</button></Link>
                 </div>
-
+                </div>
             </div>
           );
     }

@@ -67,9 +67,31 @@
   .profile-likes {
     width: 90%;
   }
+  .profile-posts {
+    width: 100%;
+  }
+  .profile-posts img {
+    width: 115px;
+    height: 115px;
+    padding: 0.5%;
+  }
+}
+@media screen and (max-width: 330px) {
+  .profile-body {
+    grid: none;
+  }
+  .profile-coverpage {
+    display: none;
+  }
+  .profile-likes {
+    width: 90%;
+  }
+  .profile-posts {
+    width: 100%;
+  }
   .profile-posts img {
     width: 100px;
     height: 100px;
-    padding: 1%;
+    padding: 0.5%;
   }
 }
