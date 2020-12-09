@@ -33,7 +33,7 @@ class Home extends Component {
           const responsive2 = {
             superLargeDesktop: {
               breakpoint: { max: 4000, min: 3000 },
-              items: 4
+              items: 2.5
             },
             desktop: {
               breakpoint: { max: 3000, min: 1024 },
@@ -41,13 +41,14 @@ class Home extends Component {
             },
             tablet: {
               breakpoint: { max: 1024, min: 464 },
-              items: 2
+              items: 1
             },
             mobile: {
               breakpoint: { max: 464, min: 0 },
-              items: 0.5
+              items: 0.5,
             }
           };
+          
           
 
         return ( 
@@ -56,8 +57,7 @@ class Home extends Component {
                 <Carousel responsive={responsive1}
                     autoPlay={this.props.deviceType !== "mobile" ? true : false}
                     autoPlaySpeed={1000}
-                    infinite={true}
-                
+                    infinite={true}                
                 >
                     <img src={img1} width="100px" height="100px" alt="" />
                     <img src={img1} width="100px" height="100px" alt=""  />
@@ -70,15 +70,18 @@ class Home extends Component {
                     <img src={img1} width="100px" height="100px" alt=""  />
                     <img src={img1} width="100px" height="100px" alt=""  />
                     <img src={img1} width="100px" height="100px" alt=""  />
-                    <img src={img1} width="100px" height="100px" alt=""  />
-            
+                    <img src={img1} width="100px" height="100px" alt=""  />            
                 </Carousel>
                 </div>
+
                 <div className="home-elements">
                     <p className="home-headings">Dance</p>
                     <Carousel responsive={responsive2}
                     swipeable={true}                 
                     infinite={true} 
+                    partialVisbile={true}
+
+                    
                     removeArrowOnDeviceType={["tablet", "mobile"]}               
                     >
                         <div className="home-grid">

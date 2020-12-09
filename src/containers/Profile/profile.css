@@ -35,7 +35,7 @@
 }
 .profile-likes {
   width: 60%;
-  margin: 5% auto;
+  margin: 1% auto;
   display: grid;
   grid-template-columns: auto auto auto;
 }
@@ -66,6 +66,7 @@
   }
   .profile-likes {
     width: 90%;
+    margin: 5% auto;
   }
   .profile-posts {
     width: 100%;
@@ -85,6 +86,7 @@
   }
   .profile-likes {
     width: 90%;
+    margin: 5% auto;
   }
   .profile-posts {
     width: 100%;
